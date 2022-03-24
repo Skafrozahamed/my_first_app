@@ -6,8 +6,6 @@ void main() {
   );
 }
 
-
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: const Color(0xFF140003),
         body: const Center(
-          child: Image(image: AssetImage('image/rich.png')
+          child: Image(image: AssetImage('image/rich.jpg')
           ),
         ),
         appBar: AppBar(
@@ -27,7 +25,8 @@ class MyApp extends StatelessWidget {
 
         ),
       ),
-    ));
+    )
+    );
   }
 }
 
